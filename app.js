@@ -11,9 +11,9 @@ function startPomodoro() {
 }
 
 function startLongBreak() {
-    timeLeft = 900; // 15 dakika uzun mola
+    timeLeft = 900; // 15 min long break time
     updateDisplay();
-    startTimer("longBreak"); // Uzun mola için timer başlatıyoruz
+    startTimer("longBreak"); // Starting timer for longBreaks
 }
 
 function updateDisplay(){
@@ -23,9 +23,9 @@ function updateDisplay(){
 }
 
 function startShortBreak() {
-    timeLeft = 300; // 5 dakika kısa mola
+    timeLeft = 300; // 5 min short break time
     updateDisplay();
-    startTimer("shortBreak"); // Kısa mola için timer başlatıyoruz
+    startTimer("shortBreak"); // Starting timer for shortBreaks
 }
 
 
@@ -77,7 +77,7 @@ function pauseTimer(){
 
 function resetTimer() {
     clearInterval(timer);
-    timeLeft = 1500; // Pomodoro süresi 25 dakika
+    timeLeft = 1500; // Pomodoro time 25 min
     isRunning = false;
     updateDisplay();
 }
