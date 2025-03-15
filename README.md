@@ -14,7 +14,7 @@
 
 # Installation
 - Clone this repository to your local machine:
-- git clone https://github.com/your-username/pomodoro-timer.git
+- git clone https://github.com/Cataltug/Pomodoro-Timer.git
 - Open the index.html file in your browser to run the timer.
 
 # Usage
