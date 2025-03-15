@@ -30,3 +30,6 @@
 
 ## Contributing
 - Feel free to fork this repository and submit pull requests. Contributions are always welcome!
+
+### If you like this project, consider giving it a ⭐ on GitHub! 😊
+
